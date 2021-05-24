@@ -1,5 +1,3 @@
-// https://replit.com/@crvitorino/poosem5garantiadetipo#Main.java
-
 import java.util.ArrayList;
 import java.util.Collection;
 
