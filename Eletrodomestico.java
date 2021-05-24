@@ -8,7 +8,13 @@ public class Eletrodomestico extends Produto {
 
     @Override
     public String toString() {
-        return String.format("%s: (%d) %s %8.2f", TIPO, this.getId(), this.getNome(), this.getPreco());
+        return String.format(
+                    "%s: (%d) %s %8.2f",
+                    TIPO, 
+                    this.getId(),
+                    this.getNome(),
+                    this.getPreco()
+                );
     }
 
 }
